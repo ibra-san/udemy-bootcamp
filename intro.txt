@@ -1,0 +1,7 @@
+Full Stack Web Development Bootcamp
+-------------------------------------
+
+- This bootcamp is by Angela and its a complete web development bootcamp. 
+
+- It will cover everything about web development, and going from  0 full stack web development to hero. 
+
