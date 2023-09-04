@@ -7,6 +7,7 @@
   <title>Moving Company landing page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <style>
     .navcon { 
       border: 2px solid red;
@@ -32,9 +33,19 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
           <a class="nav-link" href="#">About</a>
 
-          <div class="dropdown">
-            <a class="nav-link dropdown-toggle " role="button" href="#" data-bs-target="#dropdown">Services</a>
+          <div class="nav-item dropdown">
+            <button class="nav-link dropdown-toggle " type="button" data-bs-target="dropdown" aria-expanded="false" >Services
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><div class="dropdown-divider"></div></li>
+              <li><a class="dropdown-item" href="#">Something else</a></li>
+            </ul>
           </div>
+
+          
+
         </div>
       </div>
 
@@ -48,7 +59,7 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
 </body>
 
 </html>
