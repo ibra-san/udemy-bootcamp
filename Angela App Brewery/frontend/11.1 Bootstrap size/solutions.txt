@@ -14,10 +14,10 @@
       
 
 
-      <!-- Modify the HTML below to make the indigo boxes behave like the blue ones. -->
-      <div class="row">
+<!-- Modify the HTML below to make the indigo boxes behave like the blue ones. -->
+     <div class="row">
         <div class="col-md col-lg-4 col-xl-2 col-xxl-1">Column 1</div>
         <div class="col-md">Column 2</div>
-      </div>
+</div>
           
             
